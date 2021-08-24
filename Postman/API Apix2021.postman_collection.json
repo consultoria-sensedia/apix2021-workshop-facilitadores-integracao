@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "36940441-a383-475a-b96e-8c90a3d636fd",
+		"name": "API Apix2021",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obter Partidos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api-apix2021.sensedia.com/integration/v1/partidos",
+					"protocol": "http",
+					"host": [
+						"api-apix2021",
+						"sensedia",
+						"com"
+					],
+					"path": [
+						"integration",
+						"v1",
+						"partidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obter Deputados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api-apix2021.sensedia.com/integration/v1/deputados",
+					"protocol": "http",
+					"host": [
+						"api-apix2021",
+						"sensedia",
+						"com"
+					],
+					"path": [
+						"integration",
+						"v1",
+						"deputados"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
